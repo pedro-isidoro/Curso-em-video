@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Ano de Nascimento: 
+                <input type="number" name="year" id="year" min="0">
+            </p>
+            <p>
+                Sexo:
+                <input type="radio" name="sex" id="male">
+                <label for="male">Masculino</label>
+                <input type="radio" name="sex" id="female" id="female">
+                <label for="female">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="verify" id="verify">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver os resultados!
+        </div>
+        <!-- 
+            <div id="photo">
+                <img id="image" class="image" src="src/images/manha.jpg" alt="Foto do Dia">
+            </div>
+        -->
+    </section>
+    <footer>
+        <p>&copy; PedroIsidoro</p>
+    </footer>
+    <script src="src/js/index.js"></script>
+</body>
+</html>
