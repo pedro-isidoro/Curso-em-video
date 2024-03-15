@@ -1,0 +1,34 @@
+body{
+    height: 100%;
+}
+
+header .title{
+    font-size: 4rem;
+    text-align: center;
+}
+
+main{
+    width: 100%;
+    height: 46rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .startOfTheScan{
+    width: 24rem;
+    height: 7rem;
+    font-size: 2rem;
+}
+
+main .res{
+    width: 30rem;
+    height: 34rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+main .res h2{
+    font-size: 2.2rem;
+}
