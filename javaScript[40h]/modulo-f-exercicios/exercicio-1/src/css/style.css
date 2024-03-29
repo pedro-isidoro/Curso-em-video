@@ -22,3 +22,23 @@ footer{
     text-align: center;
     font-style: italic;
 }
+
+.first-div{
+    height: 4rem;
+    text-align: center;
+}
+
+.first-div #fnum{
+    width: 10rem;
+    font-size: 1rem;
+}
+
+.second-div{
+    text-align: center;
+}
+
+.second-div #flista{
+    height: 8rem;
+    width: 14rem;
+    font-size: 1rem;
+}
